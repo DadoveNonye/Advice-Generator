@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  width: 375px;
+}
+
+.main {
+  height: 300px;
+  width: 300px;
+  background-color: hsl(217, 19%, 24%);
+  color: hsl(193, 38%, 86%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.main > h6 {
+  color: hsl(150, 100%, 66%);
+}
+
+.btn {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: hsl(150, 100%, 66%);
+  position: absolute;
+  top: 90%;
+}
+hr {
+  width: 80%;
+}
